@@ -3,14 +3,14 @@
 using namespace std;
 
 int byvalue(int a,int b)
-{if(a>b)
+{if(a<b)
 return a;
-else
+else 
 return b; }
 
 void byreference(int a,int b,int &sum)
 {sum= byvalue(a,b);
-cout<<"maximum="<<sum;}
+cout<<"minimum="<<sum;}
 
 int main(){
 int a,b,sum=0;
