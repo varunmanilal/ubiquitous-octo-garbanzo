@@ -45,7 +45,8 @@ sum=sum;
 }
 i++;}
 return sum;}
-                                                                                          
+
+ //Write a main function with variables                                                                                         
 int main(){
 int firstnum,secondnum,sumEven,sumOdd,sumSquareEven,sumSquareOdd;
 cout<<"enter the  numbers in ascending order "<<endl;
