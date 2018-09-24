@@ -11,7 +11,7 @@ return b; }
 void byreference(int a,int b,int &sum)
 {sum= byvalue(a,b);
 cout<<"maximum="<<sum;}
-
+//Write a main function with variables
 int main(){
 int a,b,sum=0;
 cout<<"enter the numbers"<<endl;
