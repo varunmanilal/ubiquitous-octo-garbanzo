@@ -10,8 +10,7 @@ char tolower(char uppercase,char lowercase)
 {lowercase=uppercase+32;
 return lowercase;}
 
-
-
+//Write a main function with variables
 int main(){
 char ch,alp,result;
 cout<<"enter any alphabet"<<endl;
