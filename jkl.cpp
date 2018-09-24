@@ -29,7 +29,7 @@ return b; }
 void byreference4(int a,int b,int &sum)
 {sum= byvalue4(a,b);
 cout<<"minimum="<<sum;}
-
+//Write a main function with variables
 int main(){
 int a,b,sum=0,choice;
 cout<<"enter the numbers"<<endl;
